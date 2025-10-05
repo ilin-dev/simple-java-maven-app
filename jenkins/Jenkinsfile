@@ -26,5 +26,10 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
+        stage("Test changes") {
+            steps {
+                echo "Super Change"
+            }
+        }
     }
 }
